@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeChatWeb</name>
+    </assembly>
+    <members>
+        <member name="M:WeChatWeb.Controllers.AuthController.AuthValid(WeChatWeb.Models.AuthModel)">
+            <summary>
+            微信服务器发来的消息验证
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -20,8 +20,13 @@ namespace WeChatWeb.Controllers
         {
             return View();
         }
+        /// <summary>
+        /// 微信服务器发来的消息验证
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
-        [Route("authvalid")]
+        [Route("authvalid")]       
         public IActionResult AuthValid([FromBody] AuthModel model)
         {
             if (model == null)
